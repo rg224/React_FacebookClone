@@ -38,6 +38,16 @@
   border: none;
 }
 
+/* max-width --> On screens that are 1259px or less, do the following mentioned */
+@media(max-width: 1259px) {
+  .header__input > input {
+    display: none;
+  }
+  .header__input > i {
+    cursor: pointer;
+  }
+}
+
                                                              /* HEADER-MIDDLE */
 .header__middle {
   display: flex;
