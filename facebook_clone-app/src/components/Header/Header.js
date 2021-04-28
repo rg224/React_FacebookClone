@@ -5,7 +5,15 @@ import './Header.css';
 const Header = () => {
   return (
     <div className="header">
-      HEADER
+      <div className="header__left">
+        LEFT
+      </div>
+      <div className="header__middle">
+        MIDDLE
+      </div>
+      <div className="header__right">
+        RIGHT
+      </div>
     </div>
   )
 }
