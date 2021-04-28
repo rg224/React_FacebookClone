@@ -10,6 +10,12 @@ import SubscriptionsIcon from '@material-ui/icons/Subscriptions';
 import StorefrontIcon from '@material-ui/icons/Storefront';
 import SupervisedUserCircleIcon from '@material-ui/icons/SupervisedUserCircle';
 
+import { Avatar, IconButton } from '@material-ui/core';
+import AddIcon from '@material-ui/icons/Add';
+import ForumIcon from '@material-ui/icons/Forum';
+import NotificationsActiveIcon from '@material-ui/icons/NotificationsActive';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+
 const Header = () => {
   return (
     <div className="header">
@@ -39,8 +45,25 @@ const Header = () => {
           <SupervisedUserCircleIcon fontSize="large" />
         </div>
       </div>
+
       <div className="header__right">
-        RIGHT
+        <div className="header__info">
+          <Avatar />
+          <h4>username</h4>
+        </div>
+        
+        <IconButton>
+          <AddIcon />
+        </IconButton>
+        <IconButton>
+          <ForumIcon />
+        </IconButton>
+        <IconButton>
+          <NotificationsActiveIcon />
+        </IconButton>
+        <IconButton>
+          <ExpandMoreIcon />
+        </IconButton>
       </div>
     </div>
   )
