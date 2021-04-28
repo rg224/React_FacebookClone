@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-evenly; /* Distribute items evenly. Items have equal space around them */
 
+  background-color: white;
   box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75); /* h-offset, v-offset, blur radius, spread-radius */
 
   position: sticky; /* element will always be visible even if we try to scroll the container */
@@ -36,16 +37,6 @@
   outline-width: 0;
   background-color: transparent;
   border: none;
-}
-
-/* max-width --> On screens that are 1259px or less, do the following mentioned */
-@media(max-width: 1259px) {
-  .header__input > input {
-    display: none;
-  }
-  .header__input > i {
-    cursor: pointer;
-  }
 }
 
                                                              /* HEADER-MIDDLE */
