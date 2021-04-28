@@ -1,9 +1,10 @@
 import './App.css';
+import Header from './components/Header/Header';
 
 function App() {
   return (
     <div className="app">
-      {/* Header */}
+      <Header />
 
       {/* App Body */}
         {/* Sidebar */}
@@ -12,7 +13,7 @@ function App() {
           {/* StoryReel */}
           {/* Post Creater */}
           {/* Actual Post */}
-          
+
         {/* Widgets */}
 
     </div>
