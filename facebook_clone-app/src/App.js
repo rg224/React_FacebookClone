@@ -1,6 +1,8 @@
 import './App.css';
+
 import Header from './components/Header/Header';
 import Sidebar from './components/Sidebar/Sidebar';
+import Feed from './components/Feed/Feed';
 
 function App() {
   return (
@@ -10,7 +12,7 @@ function App() {
       <div className="app_body">
         <Sidebar />
 
-        {/* Feed */}
+        <Feed />
           {/* StoryReel */}
           {/* Post Creater */}
           {/* Actual Post */}
