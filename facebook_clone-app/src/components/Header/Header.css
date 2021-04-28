@@ -1,0 +1,39 @@
+.header {
+  padding: 15px 20px; /* Top-Botton -> 15px, Left-Right -> 20px */
+
+  display: flex;
+  justify-content: space-evenly; /* Distribute items evenly. Items have equal space around them */
+
+  box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75); /* h-offset, v-offset, blur radius, spread-radius */
+
+  position: sticky; /* element will always be visible even if we try to scroll the container */
+  z-index: 100; /* determines stack-level */
+  top: 0; /* When position is set to sticky, the top property is used to compute the sticky-constraint rectangle */
+}
+
+                                                              /* HEADER-LEFT */
+
+.header__left {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header__left > img {
+  height: 40px; 
+  margin-right: 10px;
+}
+
+.header__input {
+  display: flex;
+  align-items: center; /* aligns items centerally along the vertical axis */
+
+  background-color: #eff2f5; 
+  border-radius: 999px;
+  padding: 10px;
+}
+
+.header__input > input {
+  outline-width: 0;
+  background-color: transparent;
+  border: none;
+}
